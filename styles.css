@@ -6,18 +6,31 @@ body {
 
 
 
-
 .form {
     padding: 20px;
     padding-top: 150px;
     
-    
-    
+    }
+
+/* .form-elements {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+   
+
+}*/
+
+.form-elements {
+    column-count: 2;
 }
 
-form {
-    display: flex;
+
+.form-elements > label {
+    display: block;
 }
+
+
 
 
 
@@ -28,4 +41,7 @@ form {
   input[type=text], input[type=password], input[type=email] {
     padding:5px;
     margin:5px 0; 
-  }
+    width: 75%;
+    border-style: 2px solid grey;
+    
+}
